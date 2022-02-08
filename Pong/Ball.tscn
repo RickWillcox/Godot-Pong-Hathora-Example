@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://white.png" type="Texture" id=1]
+
+[node name="Ball" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 1.075, 0.26875 )
+texture = ExtResource( 1 )
